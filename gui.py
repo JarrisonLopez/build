@@ -81,74 +81,72 @@ class Menu:
             outline="")
 
     def boton_registrar_usuario(self):
-        self.button_image_1 = PhotoImage(
-            file=relative_to_assets("button_1.png"))
+        self.button_image_9 = PhotoImage(
+            file=relative_to_assets("button_9.png"))
         self.registrar_usuario = Button(
-            image=self.button_image_1,
+            image=self.button_image_9,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_1 clicked"),
+            command=lambda: print("Registar usuario"),
             relief="flat"
         )
         self.registrar_usuario.place(
-            x=12.0,
-            y=698.9999999999999,
-            width=336.0,
-            height=64.0
+            x=9.0,
+            y=73.99999999999989,
+            width=340.0,
+            height=80.0
         )
 
     def boton_crear_producto(self):
-        self.button_image_2 = PhotoImage(
-            file=relative_to_assets("button_2.png"))
-
+        self.button_image_8 = PhotoImage(
+            file=relative_to_assets("button_8.png"))
         self.crear_producto = Button(
-            image=self.button_image_2,
+            image=self.button_image_8,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_2 clicked"),
+            command=lambda: print("Crear producto"),
             relief="flat"
         )
         self.crear_producto.place(
-            x=12.0,
-            y=614.9999999999999,
-            width=336.0,
-            height=67.0
+            x=6.0,
+            y=153.9999999999999,
+            width=342.0,
+            height=75.0
         )
 
     def boton_agregar_cantidad_de_producto(self):
-        self.button_image_3 = PhotoImage(
-            file=relative_to_assets("button_3.png"))
-
+        self.button_image_7 = PhotoImage(
+            file=relative_to_assets("button_7.png"))
         self.agregar_cantidad_de_producto = Button(
-            image=self.button_image_3,
+            image=self.button_image_7,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_3 clicked"),
+            command=lambda: print("Agregar cantidad de producto"),
             relief="flat"
         )
         self.agregar_cantidad_de_producto.place(
-            x=13.0,
-            y=533.9999999999999,
+            x=12.0,
+            y=225.9999999999999,
             width=336.0,
-            height=70.0
+            height=72.0
         )
 
     def boton_modificar_producto(self):
-        self.button_image_4 = PhotoImage(
-            file=relative_to_assets("button_4.png"))
+        self.button_image_6 = PhotoImage(
+            file=relative_to_assets("button_6.png"))
         self.modificar_producto = Button(
-            image=self.button_image_4,
+            image=self.button_image_6,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_4 clicked"),
+            command=lambda: print("Modificar producto"),
             relief="flat"
         )
         self.modificar_producto.place(
-            x=15.0,
-            y=458.9999999999999,
+            x=13.0,
+            y=302.9999999999999,
             width=336.0,
-            height=70.0
-        )
+            height=72.0
+        )        
 
     def boton_eliminar_producto(self):
         self.button_image_5 = PhotoImage(
@@ -157,7 +155,7 @@ class Menu:
             image=self.button_image_5,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_5 clicked"),
+            command=lambda: print("Eliminar producto"),
             relief="flat"
         )
         self.eliminar_producto.place(
@@ -168,71 +166,73 @@ class Menu:
         )
 
     def boton_registrar_venta(self):
-        self.button_image_6 = PhotoImage(
-            file=relative_to_assets("button_6.png"))
+        self.button_image_4 = PhotoImage(
+            file=relative_to_assets("button_4.png"))
         self.registrar_venta = Button(
-            image=self.button_image_6,
+            image=self.button_image_4,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_6 clicked"),
+            command=lambda: print("Registrar venta"),
             relief="flat"
         )
         self.registrar_venta.place(
-            x=13.0,
-            y=302.9999999999999,
+            x=15.0,
+            y=458.9999999999999,
             width=336.0,
-            height=72.0
+            height=70.0
         )
 
     def boton_mostrar_producto(self):
-        self.button_image_7 = PhotoImage(
-            file=relative_to_assets("button_7.png"))
+        self.button_image_3 = PhotoImage(
+            file=relative_to_assets("button_3.png"))
+
         self.mostrar_producto = Button(
-            image=self.button_image_7,
+            image=self.button_image_3,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_7 clicked"),
+            command=lambda: print("Mostrar producto"),
             relief="flat"
         )
         self.mostrar_producto.place(
-            x=12.0,
-            y=225.9999999999999,
+            x=13.0,
+            y=533.9999999999999,
             width=336.0,
-            height=72.0
+            height=70.0
         )
 
     def boton_mostrar_usuario(self):
-        self.button_image_8 = PhotoImage(
-            file=relative_to_assets("button_8.png"))
+        self.button_image_2 = PhotoImage(
+            file=relative_to_assets("button_2.png"))
+
         self.mostrar_usuario = Button(
-            image=self.button_image_8,
+            image=self.button_image_2,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_8 clicked"),
+            command=lambda: print("Mostrar usuario"),
             relief="flat"
         )
         self.mostrar_usuario.place(
-            x=6.0,
-            y=153.9999999999999,
-            width=342.0,
-            height=75.0
+            x=12.0,
+            y=614.9999999999999,
+            width=336.0,
+            height=67.0
         )
 
     def boton_cerrar_sesion(self):
-        self.button_image_9 = PhotoImage(
-            file=relative_to_assets("button_9.png"))
+        self.button_image_1 = PhotoImage(
+            file=relative_to_assets("button_1.png"))
         self.cerrar_sesion = Button(
-            image=self.button_image_9,
+            image=self.button_image_1,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_9 clicked"),
+            command=lambda: print("Cerrar sesion"),
             relief="flat"
         )
         self.cerrar_sesion.place(
-            x=9.0,
-            y=73.99999999999989,
-            width=340.0,
-            height=80.0
+            x=12.0,
+            y=698.9999999999999,
+            width=336.0,
+            height=64.0
         )
 
     def logo(self):
